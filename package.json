@@ -15,7 +15,7 @@
     "@rainbow-me/rainbowkit": "^2.0.5",
     "@rainbow-me/rainbowkit-siwe-next-auth": "^0.4.0",
     "@tanstack/react-query": "^5.29.2",
-    "@vercel/postgres": "^0.9.0",
+    "@vercel/postgres": "^0.8.0",
     "daisyui": "^4.11.1",
     "drizzle-orm": "^0.30.10",
     "ethers": "^6.11.1",
@@ -25,7 +25,7 @@
     "react-dom": "^18",
     "siwe": "^2.2.0",
     "viem": "^2.9.16",
-    "wagmi": "^1.4.13"
+    "wagmi": "^2.5.19"
   },
   "devDependencies": {
     "@types/node": "^20",
