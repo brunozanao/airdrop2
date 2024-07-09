@@ -24,7 +24,7 @@ export const authOptions: NextAuthOptions = {
       async authorize(credentials, req) {
         try {
           const siwe = new SiweMessage(JSON.parse(credentials?.message || '{}'))
-          const nextAuthUrl = new URL(process.env.NEXTAUTH_URL as string)
+          const nextAuthUrl = new URL(process.env.https://airdrop-kohl.vercel.app/ as string)
 
           const result = await siwe.verify({
             signature: credentials?.signature || '',
