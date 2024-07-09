@@ -3,7 +3,7 @@ import { cookieStorage, createStorage } from 'wagmi'
 import { chains } from './networks'
 
 export const config = getDefaultConfig({
-  appName: 'theblockchain.eth || boilerplate',
+  appName: 'Carbon.Std',
   projectId: String(process.env.NEXT_PUBLIC_PROJECT_ID),
   chains: chains,
   ssr: true,
